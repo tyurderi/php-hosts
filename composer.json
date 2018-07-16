@@ -1,0 +1,14 @@
+{
+    "name": "tyurderi/hosts",
+    "description": "A very simple and minimalistic hosts file manager.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tommy Yurderi",
+            "email": "tyurderi@yahoo.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

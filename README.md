@@ -33,10 +33,10 @@ echo $host->ignored, PHP_EOL; // => false
 echo $host->empty, PHP_EOL;   // => false
 
 $host->ip = '127.0.0.2';
-$host->save();
 
-// Delete an exsting host entry
-$host->delete();
+$host->remove();
+
+$editor->write();
 ```
 
 
